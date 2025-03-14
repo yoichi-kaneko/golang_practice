@@ -16,8 +16,8 @@ func process(w http.ResponseWriter, r *http.Request) {
 	funcMap := template.FuncMap {
 		"fdate": formatDate,
 	} 
-	t := template.New("tmpl_7.html").Funcs(funcMap)
-	t, _ = t.ParseFiles("tmpl_7.html")
+	t := template.New("tmpl_07.html").Funcs(funcMap)
+	t, _ = t.ParseFiles("tmpl_07.html")
 	t.Execute(w, time.Now())
 }
 

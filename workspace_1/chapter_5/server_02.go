@@ -9,7 +9,7 @@ import (
 )
 
 func process(w http.ResponseWriter, r *http.Request) {
-	t, _ := template.ParseFiles("tmpl_2.html")
+	t, _ := template.ParseFiles("tmpl_02.html")
 	rand.Seed(time.Now().Unix())
 	t.Execute(w, rand.Intn(10) > 5)
 }
