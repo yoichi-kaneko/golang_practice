@@ -1,0 +1,14 @@
+<!-- テンプレート中でドットへ代入を行う -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Go Web Programming</title>
+	</head>
+	<body>
+		<div>ドットの値は{{ . }}です。</div>
+		{{ with "world"}}
+			<div>ドットの値は{{ . }}に変わりました。</div>
+		{{ end }}
+		<div>ドットの値は{{ . }}に戻りました。</div>
+	</body>
+</html>

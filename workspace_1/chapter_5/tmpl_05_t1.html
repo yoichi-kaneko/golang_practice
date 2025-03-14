@@ -1,0 +1,15 @@
+<!-- テンプレートのインクルード -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Go Web Programming</title>
+	</head>
+	<body>
+		<div>このファイルはt1です。（インクルード前）</div>
+		<div>このファイル内のドットの値は{{ . }}です。</div>
+		<hr />
+			{{ template "tmpl_5_t2.html" .}}
+		<hr />
+		<div>このファイルはt1です。（インクルード後）</div>
+	</body>
+</html>
