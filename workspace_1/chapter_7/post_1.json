@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "content": "This is the first post in chapter 7.",
+    "author": {
+        "id": 2,
+        "name": "John Doe"
+    },
+    "comments": [
+        {
+            "id": 3,
+            "content": "Great post!",
+            "author":  "Jane Smith"
+        },
+        {
+            "id": 4,
+            "content": "Thanks for sharing!",
+            "author": "Alice Johnson"
+        }
+    ]
+}
