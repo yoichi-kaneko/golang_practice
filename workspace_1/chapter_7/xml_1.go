@@ -1,3 +1,4 @@
+// xmlの解析
 package main
 
 import (
@@ -21,7 +22,7 @@ type Author struct {
 }
 
 func main() {
-	xmlFile, err := os.Open("post.xml")
+	xmlFile, err := os.Open("post_1.xml")
 	if err != nil {
 		fmt.Println(err)
 		return
